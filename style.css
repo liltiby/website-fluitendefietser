@@ -41,6 +41,7 @@ html {
 }
 
 #infoheader {
+    font-size: 20px;
     display: flex;
 justify-content: space-evenly;
 align-items: center;
@@ -49,6 +50,7 @@ align-items: center;
 .link {
     color: rgb(255, 255, 255);
     font-weight: bold;
+    text-decoration: none;
 }
 
 .link:hover {
@@ -58,6 +60,6 @@ align-items: center;
 @keyframes colorlink {
     to {
         color: rgb(43, 172, 253);
-        font-size: 20px;
+        font-size: 24px;
     }
 }
