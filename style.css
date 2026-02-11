@@ -1,28 +1,63 @@
-.footer{
-background-color: lightblue;
-color:white;
+.footer {
+    background-color: lightblue;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+
+
 
 }
-.header{
-background-color: lightblue;
-color:white;
-padding: 10px;
-text-align: center;
-font-size: 20px;
-display: flex;
-flex-direction: column;
+
+.header {
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 }
-html{
+
+html {
     font-family: Arial;
 }
-#email{
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-}
-#searchicon{
+
+
+#searchicon {
     width: 20px;
-    height: 20px;
     align-self: flex-end;
     margin: 10px;
     position: absolute;
+    transition: 0.2s;
+}
+#searchicon:hover{
+    transform: scale(2);
+}
+
+#infoheader {
+    display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.link {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.link:hover {
+    animation: colorlink 0.2s forwards;
+}
+
+@keyframes colorlink {
+    to {
+        color: rgb(43, 172, 253);
+        font-size: 20px;
+    }
 }
