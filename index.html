@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<div class="header">
-    <img src="assets/search.png" alt="Search" class="searchicon">
 
+<html lang="en" onkeydown="keycheck(event)">
+    <div class="header">
+    <img src="assets/search.png" alt="Search" class="searchicon">
     <h1>De Fluitende Fietser</h1>
 </div>
-<html lang="en">
+<div class="menu">
+    <a href="index.html" class="link">Home</a>
+    <a href="contact.html" class="link">Contact</a>
+    <a href="overons.html" class="link">Over ons</a>
+    <a href="verhuur.html" class="link">Verhuur</a>
+    <a href="fietsen.html" class="link">Fietsen</a>
+</div>
 <link rel="stylesheet" href="style.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +19,14 @@
 </head>
 
 <body>
+    <p id="pht" class="placeholdertext">Op de homepagina staat een slider met minimaal 5 foto's. Iedere foto is 5 seconden
+        zichtbaar en zal
+        dan gewisseld worden met een andere foto. Ook moet er de mogelijkheid zijn dat gebruikers zelf naar
+        de volgende foto kunnen gaan. Als alle foto’s voorbij gekomen zijn, dan begint de slider weer met de
+        eerste foto. Op de homepagina wil Femke ook dat er automatisch op basis van de openingstijden een
+        melding komt dat de winkel open is of gesloten. Positie en vorm is zelf te bepalen. Verder moet er een
+        welkomsttekst op de homepagina staan. Deze welkomsttekst moet uit een bestand ingeladen worden.
+    </p>
     <div class="footer">
 
         <div id="infoheader">
@@ -21,7 +36,9 @@
             <a class="link" href="mailto:info@fluitendefietser.nl">Email</a>
             <a class="link" href="contact.html">Contact</a>
             <a class="link" href="overons.html">Over ons</a>
-            <a class="link" href="https://cdn.sanity.io/files/j02l2p79/production_bovag/ff3f77901fc46a49b0f1aa003c98179d9cafbec0">Algemene voorwaarderen</a>
+            <a class="link"
+                href="https://cdn.sanity.io/files/j02l2p79/production_bovag/ff3f77901fc46a49b0f1aa003c98179d9cafbec0">Algemene
+                voorwaarderen</a>
             <p>© De fluitende fietser 2022</p>
         </div>
         <img src="assets/biker.png" alt="" class="bike" id="biker">
