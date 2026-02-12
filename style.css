@@ -29,14 +29,14 @@ html {
 }
 
 
-#searchicon {
+.searchicon {
     width: 20px;
     align-self: flex-end;
     margin: 10px;
     position: absolute;
     transition: 0.2s;
 }
-#searchicon:hover{
+.searchicon:hover{
     transform: scale(2);
 }
 
@@ -51,6 +51,8 @@ align-items: center;
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-decoration: none;
+    background-color: lightblue;
+    
 }
 
 .link:hover {
@@ -62,4 +64,27 @@ align-items: center;
         color: rgb(43, 172, 253);
         font-size: 24px;
     }
+}
+#kvk88599665{
+    font-size: 14px;
+}
+#btwnl999888492Z09{
+    font-size: 14px;
+}
+.bike{
+position: absolute;
+bottom:0;
+right:0;
+width: 30px;
+height: 30px;
+
+}
+.bikeflipped{
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+        position: absolute;
+bottom:0;
+right:0;
+width: 30px;
+height: 30px;
 }
